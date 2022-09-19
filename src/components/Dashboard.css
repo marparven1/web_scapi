@@ -18,7 +18,9 @@ iframe#DashScapi{
     width: 100% !important;
     border: 2px solid #ccdcdb;
     border-radius: 25px;
-    height: 650px;
+    height: 95%;
+    position: absolute;
+    margin-top: 40px;
 }
 
 

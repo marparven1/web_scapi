@@ -1,12 +1,15 @@
+
+/*
 .container{
     margin-top: 200px;
 }
+*/
 
 #form_login{
    /* font-family:  'Poppins-Regular, sans-serif' ; */
-    margin-top: 100px;
+    margin-top: 200px !important;
     background-color: #c6d9c6 ;
-    opacity: 0.7 ;
+    opacity: 0.8 ;
     border-radius: 4px;
     box-shadow: 2px 2px #043a4b;
     font-size: large;

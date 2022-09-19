@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Dashboard } from './Dashboard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
-/*import fondo from './Scapi22.jpg'*/
+import fondo from './Scapi22.jpg'
 import './Login.css';
 
 export const Login = () => {
@@ -36,7 +36,7 @@ export const Login = () => {
 
 
   return (
-    <div className='main' /*style={{backgroundImage:`url(${fondo})`}}*/ >
+    <div className='main' style={{backgroundImage:`url(${fondo})`}} >
 
     <div  className="container" >
 
@@ -58,8 +58,9 @@ export const Login = () => {
 
         <input type="submit" id="IniSesion" className="btn btn-primary" value="INICIAR SESIÓN"  onClick={ iniciarSesion }/>
     </form>
-    { miLogin === "true" && <Dashboard usu={usu}/> } 
+
   </div>
+  { miLogin === "true" && <Dashboard usu={usu}/> } 
 </div>
 
 
