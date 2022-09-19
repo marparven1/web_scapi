@@ -27,11 +27,11 @@ export const Dashboard = (props) => {
     
     <>
         <div className="DashboardMain" >
-          <div id='red' >
+
           <a className="nav-link  h5"  href=" "  onClick={ cerrarSesion } > <FontAwesomeIcon icon={faUserLock}  /> Cerrar Sesión</a>
-          </div>
+
           <div>
-          <iframe id ="DashScapi"  title="SCAPI_V8 - Radiación"  src="https://app.powerbi.com/view?r=eyJrIjoiMTkwNzcwOWYtOTk3Zi00NzIwLTlkM2QtMjhjM2Q0YmM5ZGU3IiwidCI6IjcwYWIxMGRjLWI0MDMtNDU0Mi05NGRlLTJkM2Q4YzUzZjMzNiIsImMiOjl9&embedImagePlaceholder=true" frameborder="0" allowFullScreen={true} ></iframe>
+          <iframe id ="DashScapi"  title="SCAPI_V9 - Radiación"  src="https://app.powerbi.com/view?r=eyJrIjoiN2MzYzZjZGEtNjQyNi00OGZkLTg5MmItYTFlZjAxNTE2NWIwIiwidCI6IjcwYWIxMGRjLWI0MDMtNDU0Mi05NGRlLTJkM2Q4YzUzZjMzNiIsImMiOjl9&embedImagePlaceholder=true"  frameborder="0" allowFullScreen={true} ></iframe>
           </div>
         </div>
     

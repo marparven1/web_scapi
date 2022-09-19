@@ -60,7 +60,7 @@ export const Login = () => {
     </form>
 
   </div>
-  { miLogin === "true" && <Dashboard usu={usu}/> } 
+  { miLogin === "true" && <Dashboard /> } 
 </div>
 
 
