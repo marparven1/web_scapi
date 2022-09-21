@@ -20,7 +20,7 @@ export const Login = () => {
     if(txtusu.length===0 || txtpas.length===0){
       alert("¡Debe rellenar los campos de usuario y contraseña!");
     }else{
-      if(usu === "soltel" && pas==="Hola123"){
+      if(usu === "scapi" && pas==="QBRLfuW3%e34"){
         setMiLogin("true");
         document.getElementById("form_login").style.display = "none";
       }else{
