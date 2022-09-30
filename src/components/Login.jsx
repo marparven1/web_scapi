@@ -29,7 +29,6 @@ export const Login = () => {
         document.getElementById("txtusu").value = "";
         document.getElementById("txtpas").value = "";
         document.getElementById("txtusu").focus();
-        
       }
     }
   }
